@@ -7,20 +7,21 @@
  xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>A grand RSS subscription</title>
-        <link></link>
-        <description></description>
-        <language></language>
-        <pubDate></pubDate>
+        <link>http://localhost</link>
+        <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, voluptate perferendis atque, distinctio exercitationem, magnam mollitia nulla adipisci voluptatum placeat consequuntur deleniti modi sequi esse eveniet incidunt autem nesciunt similique.</description>
+        <language>es-ES</language>
         <category></category>
-        <image></image>
+        <image>
+            <title>A grand RSS subscription</title>
+            <url>http://localhost/ExampleImage</url>
+            <link>http://localhost</link>
+        </image>
 
 
         <item>
-            <title></title>
-            <link></link>
-            <description></description>
-            <author></author>
-            <enclosure></enclosure>
+            <title>Articulo1</title>
+            <link>http://localhost/Articulo1</link>
+            <description>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae facere earum eius, perferendis, doloribus voluptates dolores molestias quo eum aspernatur ea rem! Accusamus deserunt ipsum dolor dolore cupiditate possimus incidunt!</description>
         </item>
 
     </channel>
