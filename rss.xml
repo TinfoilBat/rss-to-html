@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<rss version="2.0">
+    <channel>
+        <title>A grand RSS subscription</title>
+        <link></link>
+        <description></description>
+        <language></language>
+        <pubDate></pubDate>
+        <category></category>
+        <image></image>
+
+
+        <item>
+            <title></title>
+            <link></link>
+            <description></description>
+            <author></author>
+            <enclosure></enclosure>
+        </item>
+
+    </channel>
+</rss>
