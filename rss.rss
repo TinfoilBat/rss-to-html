@@ -5,24 +5,64 @@
  xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
  xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>A grand RSS subscription</title>
-        <link>http://localhost</link>
-        <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, voluptate perferendis atque, distinctio exercitationem, magnam mollitia nulla adipisci voluptatum placeat consequuntur deleniti modi sequi esse eveniet incidunt autem nesciunt similique.</description>
+    <channel>  
+        <title>League Of Legends Patch Notes</title>
+        <link>https://euw.leagueoflegends.com/es-es/news/game-updates/</link>
+        <description>RSS dedicado a seguir los patch notes de League Of Legends.</description>
         <language>es-ES</language>
-        <category></category>
+        <category>Videojuegos</category>
+        <pubDate>Mon, 30 Mar 2020 09:00:00 UT</pubDate>
         <image>
-            <title>A grand RSS subscription</title>
-            <url>http://localhost/ExampleImage</url>
-            <link>http://localhost</link>
+            <title>League Of Legends Patch Notes</title>
+            <url>https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt9e9a7442903517c4/5e20fb8c146ca8115b2d3138/header.jpg</url>
+            <link>https://euw.leagueoflegends.com/es-es/news/game-updates/</link>
         </image>
 
 
         <item>
-            <title>Articulo1</title>
-            <link>http://localhost/Articulo1</link>
-            <description>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae facere earum eius, perferendis, doloribus voluptates dolores molestias quo eum aspernatur ea rem! Accusamus deserunt ipsum dolor dolore cupiditate possimus incidunt!</description>
+            <title>Notas parche 10.6</title>
+            <link>https://euw.leagueoflegends.com/es-es/news/game-updates/patch-10-6-notes/</link>
+            <description>Este articulo contiene toda la información del parche 10.6 de league of legends.</description>
+            <author>noreply@umail.accounts.riotgames.com</author>
+            <enclosure url="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltbc7f0a4656800006/5e55be969c1f570dcb33d9ac/LOL_PROMOART_9-2.jpg" length="394307" type="image/jpeg" />
+        </item>
+        <item>
+            <title>Notas parche 10.5</title>
+            <link>https://euw.leagueoflegends.com/es-es/news/game-updates/patch-10-5-notes/</link>
+            <description>Este articulo contiene toda la información del parche 10.5 de league of legends.</description>
+            <author>noreply@umail.accounts.riotgames.com</author>
+            <enclosure url="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt4079e1291451c573/5e5713267569ef0d9eca7041/Patch_105_Notes_Banner.jpg" length="426267" type="image/jpeg" />
+        </item>
+        <item>
+            <title>Notas parche 10.4</title>
+            <link>https://euw.leagueoflegends.com/es-es/news/game-updates/patch-10-4-notes/</link>
+            <description>Este articulo contiene toda la información del parche 10.4 de league of legends.</description>
+            <author>noreply@umail.accounts.riotgames.com</author>
+            <enclosure url="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt4d280f349eb96be1/5e44ba3132797c0d2ce79520/LOL_PROMOART_6.jpg" length="448844" type="image/jpeg" />
+        </item>
+        
+        <item>
+            <title>Notas parche 10.3</title>
+            <link>https://euw.leagueoflegends.com/es-es/news/game-updates/patch-10-3-notes/</link>
+            <description>Este articulo contiene toda la información del parche 10.3 de league of legends.</description>
+            <author>noreply@umail.accounts.riotgames.com</author>
+            <enclosure url="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltb16f7bf3691493f5/5e32376ae147ae4537d93a32/LOL_PROMOART_5.jpg" length="566561" type="image/jpeg" />
         </item>
 
+        <item>
+            <title>Notas parche 10.2</title>
+            <link>https://euw.leagueoflegends.com/es-es/news/game-updates/patch-10-2-notes/</link>
+            <description>Este articulo contiene toda la información del parche 10.2 de league of legends.</description>
+            <author>noreply@umail.accounts.riotgames.com</author>
+            <enclosure url="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt9e9a7442903517c4/5e20fb8c146ca8115b2d3138/header.jpg" length="384380" type="image/jpeg" />
+        </item>
+
+        <item>
+            <title>Notas parche 10.1</title>
+            <link>https://euw.leagueoflegends.com/es-es/news/game-updates/patch-10-1-notes/</link>
+            <description>Este articulo contiene toda la información del parche 10.1 de league of legends.</description>
+            <author>noreply@umail.accounts.riotgames.com</author>
+            <enclosure url="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt041ccaa91033a267/5e210388522857549a2920aa/Patch_10.1_Notes_Article.jpg" length="255254" type="image/jpeg" />
+        </item>
     </channel>
 </rss>
