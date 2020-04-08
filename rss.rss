@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="transform.xsl" ?>
 
- <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
- xmlns:dc="http://purl.org/dc/elements/1.1/"
- xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
- xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
- xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>  
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/" 
+    xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/" 
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
         <title>League Of Legends Patch Notes</title>
         <link>https://euw.leagueoflegends.com/es-es/news/game-updates/</link>
         <description>RSS dedicado a seguir los patch notes de League Of Legends.</description>
@@ -40,7 +41,7 @@
             <author>noreply@umail.accounts.riotgames.com</author>
             <enclosure url="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt4d280f349eb96be1/5e44ba3132797c0d2ce79520/LOL_PROMOART_6.jpg" length="448844" type="image/jpeg" />
         </item>
-        
+
         <item>
             <title>Notas parche 10.3</title>
             <link>https://euw.leagueoflegends.com/es-es/news/game-updates/patch-10-3-notes/</link>
