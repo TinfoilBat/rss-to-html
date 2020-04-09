@@ -49,6 +49,16 @@
                     </div>
                 </xsl:for-each>
                 </div>
+                <footer>
+                    <p>
+                        <b>Categoria: </b>
+                        <xsl:value-of select="rss/channel/category"/>
+                    </p>
+                    <p>
+                        <b>Fecha de publicación: </b>
+                        <xsl:value-of select="rss/channel/pubDate"/>
+                    </p>
+                </footer>
             </body>
         </html>
     </xsl:template>

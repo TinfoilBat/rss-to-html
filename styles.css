@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
 body {
     background: #1c1d25;
+    margin: 0;
 }
 header {
     display: flex;
@@ -12,8 +15,21 @@ header h1 {
 header  p {
     margin-top: -20px;
 }
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #14151b;
+    padding: 25px;
+}
+footer p b {
+    color: #6272a4;
+}
+footer p{
+    color: #ababab;
+}
 a, h3, p {
-    font-family: Arial, serif;
+    font-family: 'Open Sans', sans-serif;
     text-decoration: none;
 }
 h1 {
@@ -50,4 +66,7 @@ img {
 }
 .article {
     margin: 20px;
+}
+.article p {
+    color: #ababab;
 }
