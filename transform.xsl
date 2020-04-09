@@ -3,9 +3,9 @@
     <xsl:output method="html" doctype-public="XSLT-compat" omit-xml-declaration="yes" encoding="UTF-8" indent="yes" />
 
     <xsl:template match="/">
-        <hmtl>
+        <html lang="es">
             <head>
-                <title>New Version!</title>
+                <title>LoL News</title>
             </head>
             <body>
                 <xsl:for-each select="rss/channel/item">
@@ -28,6 +28,6 @@
                     </p>
                 </xsl:for-each>
             </body>
-        </hmtl>
+        </html>
     </xsl:template>
 </xsl:transform>
