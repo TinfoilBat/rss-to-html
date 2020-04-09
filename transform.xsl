@@ -8,6 +8,7 @@
                 <title>Inicio</title>
             </head>
             <body>
+                <div>
                 <xsl:for-each select="rss/channel/item">
                     <div>
                         <img>
@@ -18,15 +19,21 @@
                                 <xsl:value-of select="title"/>
                             </xsl:attribute>
                         </img>
-                        <h1>
-                            <xsl:value-of select="title"/>
-                        </h1>
+                        <a>
+                            <xsl:attribute name="href">
+                                <xsl:value-of select="link"/>
+                            </xsl:attribute>
+                            <h1>
+                                <xsl:value-of select="title"/>
+                            </h1>
+                        </a>
                         <h6>by: <xsl:value-of select="author"/></h6>
                         <p>
                             <xsl:value-of select="description"/>
                         </p>
                     </div>
                 </xsl:for-each>
+                </div>
             </body>
         </html>
     </xsl:template>
