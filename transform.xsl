@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<xsl:transform xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0">
-    <xsl:output method="html" doctype-public="XSLT-compat" omit-xml-declaration="yes" encoding="UTF-8" indent="yes" />
-
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+    <xsl:output method="html" encoding="UTF-8" doctype-system="about:legacy-compat"/>
     <xsl:template match="/">
         <html lang="es">
             <head>
-                <title>LoL News</title>
+                <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+                <title>Inicio</title>
             </head>
             <body>
                 <xsl:for-each select="rss/channel/item">
@@ -30,4 +30,4 @@
             </body>
         </html>
     </xsl:template>
-</xsl:transform>
+</xsl:stylesheet>
