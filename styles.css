@@ -1,3 +1,53 @@
-h1 {
+body {
+    background: #1c1d25;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header h1 {
+    font-size: 50px;
+}
+header  p {
+    margin-top: -20px;
+}
+a, h3, p {
     font-family: Arial, serif;
+    text-decoration: none;
+}
+h1 {
+    color: #ff5555;
+}
+h1:visited {
+    transition: 0.5s;
+    color: #bd93f9;
+}
+
+h1:hover {
+    transition: 0.5s;
+    color: #ff79c6;
+}
+h3 {
+    color: #6272a4;
+    margin-top: -25px;
+    font-size: small;
+}
+p {
+    color: #f8f8f2;
+}
+img {
+    width: 550px;
+    border-radius: 5px;
+    margin-bottom: -20px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.article {
+    margin: 20px;
 }
