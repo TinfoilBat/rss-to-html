@@ -11,6 +11,14 @@
             </head>
             <body>
                 <header>
+                    <img>
+                        <xsl:attribute name="src">
+                            <xsl:value-of select="rss/channel/image/url"/>
+                        </xsl:attribute>
+                        <xsl:attribute name="alt">
+                            <xsl:value-of select="rss/channel/image/title"/>
+                        </xsl:attribute>
+                    </img>
                     <a target="_blank">
                         <xsl:attribute name="href">
                             <xsl:value-of select="rss/channel/link"/>
